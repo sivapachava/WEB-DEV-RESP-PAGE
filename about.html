@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            
+        <div class="navbar">
+            <img src="musicca-logo.png" class="logo">
+            <nav>
+                <ul id ="menuList">
+                    <li><a href="">Exercices</a></li>
+                    <li><a href="">Lessons</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">CreateAccount</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </nav>
+            <img src="C:\Users\Siva Ratnam Pachava\OneDrive\Desktop\web-assignment\responcive design web dev\assets\img\burger_menu_icon.png" class="menu-icon" onclick="togglemenu()">
+        </div>  
+    </div>
+
+    <div class="page-content">
+        <div class="left-panel">
+          <div class="menu">
+             <div class="menu-item active">About</div>
+             <div class="menu-item">Musicca</div>
+             <hr>
+             <div class="menu-item">Support</div>
+          </div>
+        </div>
+
+        <div class="right-panel">
+          <h1 class="title">About Musicca</h1>
+           <div class="cards">
+             <div class="card">
+              <h2 class="title">Company</h2>
+              <p>Get to know us and meet the people behind Musicca</p>
+              <div class="illustration"></div>
+             </div>
+  
+             <div class="card">
+              <h2 class="title">Company</h2>
+              <p>Get to know us and meet the people behind Musicca</p>
+              <div class="illustration"></div>
+             </div>
+  
+             <div class="card">
+              <h2 class="title">Company</h2>
+              <p>Get to know us and meet the people behind Musicca</p>
+              <div class="illustration"></div>
+             </div>
+          </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "230px";
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+    </script>
+
+</body>
+</html>
+
+
