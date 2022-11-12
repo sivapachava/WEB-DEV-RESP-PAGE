@@ -61,52 +61,52 @@ body{
     display: flex;
     column-gap: 20px;
   }
-  .page-content .left-panel {
+  .left-panel {
     width: 25%;
   }
-  .page-content .left-panel .menu {
+  .menu {
     background-color: white;
   }
-  .page-content .left-panel .menu .menu-item {
+  .menu-item {
     font-size: 18px;
     padding: 20px;
     font-weight: 600;
   }
-  .page-content .left-panel .menu .menu-item.active {
+  .menu-item.active {
     color: white;
     background-color: #72ac51;
   }
-  .page-content .left-panel .menu hr {
+  .menu hr {
     border-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
     border-top: 1px solid #ebebeb;
   }
-  .page-content .right-panel {
+  .right-panel {
     width: 75%;
   }
-  .page-content .right-panel .title {
+  .right-panel .title {
     font-size: 36px;
     font-weight: 400;
     color: #565656;
   }
-  .page-content .right-panel .cards {
+   .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
-  .page-content .right-panel .cards .card {
+   .card {
     background-color: white;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     flex-basis: 40%;
   }
-  .page-content .right-panel .cards .card .title {
+  .card .title {
     font-weight: 600;
     font-size: 20px;
   }
-  .page-content .right-panel .cards .card .illustration {
+  .illustration {
     background-image: url(./company.jpg);
     background-size: cover;
     background-repeat: no-repeat;
